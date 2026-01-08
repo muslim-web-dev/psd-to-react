@@ -1,4 +1,3 @@
-
 ## 1. Assets Offered by User1
 
 User1 offered **15 assets** from **15 different contracts**:
@@ -51,130 +50,24 @@ User2 offered **15 assets** from **15 different contracts**:
 
 ---
 
-## 3. User1 Balance Sheet
+## 3. Complete Balance Sheet (Both Users)
 
-### Before Trade
+| Asset Pair | Type | User1 Before | User1 After | User1 Change | User2 Before | User2 After | User2 Change | Trade Result |
+|---|---|---|---|---|---|---|---|---|
+| ERC20-01 | ERC20 | 10.0 | 9.0 | -1.0 sent | 20.0 | 18.0 | -2.0 sent | U1 gets 2.0 from U2, U2 gets 1.0 from U1 |
+| ERC20-02 | ERC20 | 10.0 | 9.0 | -1.0 sent | 20.0 | 18.0 | -2.0 sent | U1 gets 2.0 from U2, U2 gets 1.0 from U1 |
+| ERC20-03 | ERC20 | 10.0 | 9.0 | -1.0 sent | 20.0 | 18.0 | -2.0 sent | U1 gets 2.0 from U2, U2 gets 1.0 from U1 |
+| ERC20-04 | ERC20 | 10.0 | 9.0 | -1.0 sent | 20.0 | 18.0 | -2.0 sent | U1 gets 2.0 from U2, U2 gets 1.0 from U1 |
+| ERC20-05 | ERC20 | 10.0 | 9.0 | -1.0 sent | 20.0 | 18.0 | -2.0 sent | U1 gets 2.0 from U2, U2 gets 1.0 from U1 |
+| NFT-01 | ERC721 | Owns #1 | Sent | -1 NFT | Owns #2 | Sent | -1 NFT | U1 gets U2's #2, U2 gets U1's #1 |
+| NFT-02 | ERC721 | Owns #1 | Sent | -1 NFT | Owns #2 | Sent | -1 NFT | U1 gets U2's #2, U2 gets U1's #1 |
+| NFT-03 | ERC721 | Owns #1 | Sent | -1 NFT | Owns #2 | Sent | -1 NFT | U1 gets U2's #2, U2 gets U1's #1 |
+| NFT-04 | ERC721 | Owns #1 | Sent | -1 NFT | Owns #2 | Sent | -1 NFT | U1 gets U2's #2, U2 gets U1's #1 |
+| NFT-05 | ERC721 | Owns #1 | Sent | -1 NFT | Owns #2 | Sent | -1 NFT | U1 gets U2's #2, U2 gets U1's #1 |
+| ERC1155-01 | ERC1155 | 100 units | 97 units | -3 sent | 100 units | 96 units | -4 sent | U1 gets 4 from U2, U2 gets 3 from U1 |
+| ERC1155-02 | ERC1155 | 100 units | 97 units | -3 sent | 100 units | 96 units | -4 sent | U1 gets 4 from U2, U2 gets 3 from U1 |
+| ERC1155-03 | ERC1155 | 100 units | 97 units | -3 sent | 100 units | 96 units | -4 sent | U1 gets 4 from U2, U2 gets 3 from U1 |
+| ERC1155-04 | ERC1155 | 100 units | 97 units | -3 sent | 100 units | 96 units | -4 sent | U1 gets 4 from U2, U2 gets 3 from U1 |
+| ERC1155-05 | ERC1155 | 100 units | 97 units | -3 sent | 100 units | 96 units | -4 sent | U1 gets 4 from U2, U2 gets 3 from U1 |
 
-| Contract Name | Asset Type | Balance |
-|---|---|---|
-| ERC20-01-User1 | ERC20 | 10.0 tokens |
-| ERC20-02-User1 | ERC20 | 10.0 tokens |
-| ERC20-03-User1 | ERC20 | 10.0 tokens |
-| ERC20-04-User1 | ERC20 | 10.0 tokens |
-| ERC20-05-User1 | ERC20 | 10.0 tokens |
-| NFT-01-User1 | ERC721 | Owns Token ID #1 |
-| NFT-02-User1 | ERC721 | Owns Token ID #1 |
-| NFT-03-User1 | ERC721 | Owns Token ID #1 |
-| NFT-04-User1 | ERC721 | Owns Token ID #1 |
-| NFT-05-User1 | ERC721 | Owns Token ID #1 |
-| ERC1155-01-User1 | ERC1155 | 100 units (Token ID:1) |
-| ERC1155-02-User1 | ERC1155 | 100 units (Token ID:1) |
-| ERC1155-03-User1 | ERC1155 | 100 units (Token ID:1) |
-| ERC1155-04-User1 | ERC1155 | 100 units (Token ID:1) |
-| ERC1155-05-User1 | ERC1155 | 100 units (Token ID:1) |
-
-### After Trade (Own Assets)
-
-| Contract Name | Asset Type | Balance | Change |
-|---|---|---|---|
-| ERC20-01-User1 | ERC20 | 9.0 tokens | -1.0 (sent) |
-| ERC20-02-User1 | ERC20 | 9.0 tokens | -1.0 (sent) |
-| ERC20-03-User1 | ERC20 | 9.0 tokens | -1.0 (sent) |
-| ERC20-04-User1 | ERC20 | 9.0 tokens | -1.0 (sent) |
-| ERC20-05-User1 | ERC20 | 9.0 tokens | -1.0 (sent) |
-| NFT-01-User1 | ERC721 | None | Sent Token ID #1 |
-| NFT-02-User1 | ERC721 | None | Sent Token ID #1 |
-| NFT-03-User1 | ERC721 | None | Sent Token ID #1 |
-| NFT-04-User1 | ERC721 | None | Sent Token ID #1 |
-| NFT-05-User1 | ERC721 | None | Sent Token ID #1 |
-| ERC1155-01-User1 | ERC1155 | 97 units (Token ID:1) | -3 (sent) |
-| ERC1155-02-User1 | ERC1155 | 97 units (Token ID:1) | -3 (sent) |
-| ERC1155-03-User1 | ERC1155 | 97 units (Token ID:1) | -3 (sent) |
-| ERC1155-04-User1 | ERC1155 | 97 units (Token ID:1) | -3 (sent) |
-| ERC1155-05-User1 | ERC1155 | 97 units (Token ID:1) | -3 (sent) |
-
-### After Trade (Received Assets from User2)
-
-| Contract Name | Asset Type | Balance | Source |
-|---|---|---|---|
-| ERC20-01-User2 | ERC20 | 2.0 tokens | Received from User2 |
-| ERC20-02-User2 | ERC20 | 2.0 tokens | Received from User2 |
-| ERC20-03-User2 | ERC20 | 2.0 tokens | Received from User2 |
-| ERC20-04-User2 | ERC20 | 2.0 tokens | Received from User2 |
-| ERC20-05-User2 | ERC20 | 2.0 tokens | Received from User2 |
-| NFT-01-User2 | ERC721 | Owns Token ID #2 | Received from User2 |
-| NFT-02-User2 | ERC721 | Owns Token ID #2 | Received from User2 |
-| NFT-03-User2 | ERC721 | Owns Token ID #2 | Received from User2 |
-| NFT-04-User2 | ERC721 | Owns Token ID #2 | Received from User2 |
-| NFT-05-User2 | ERC721 | Owns Token ID #2 | Received from User2 |
-| ERC1155-01-User2 | ERC1155 | 4 units (Token ID:1) | Received from User2 |
-| ERC1155-02-User2 | ERC1155 | 4 units (Token ID:1) | Received from User2 |
-| ERC1155-03-User2 | ERC1155 | 4 units (Token ID:1) | Received from User2 |
-| ERC1155-04-User2 | ERC1155 | 4 units (Token ID:1) | Received from User2 |
-| ERC1155-05-User2 | ERC1155 | 4 units (Token ID:1) | Received from User2 |
-
----
-
-## 4. User2 Balance Sheet
-
-### Before Trade
-
-| Contract Name | Asset Type | Balance |
-|---|---|---|
-| ERC20-01-User2 | ERC20 | 20.0 tokens |
-| ERC20-02-User2 | ERC20 | 20.0 tokens |
-| ERC20-03-User2 | ERC20 | 20.0 tokens |
-| ERC20-04-User2 | ERC20 | 20.0 tokens |
-| ERC20-05-User2 | ERC20 | 20.0 tokens |
-| NFT-01-User2 | ERC721 | Owns Token ID #2 |
-| NFT-02-User2 | ERC721 | Owns Token ID #2 |
-| NFT-03-User2 | ERC721 | Owns Token ID #2 |
-| NFT-04-User2 | ERC721 | Owns Token ID #2 |
-| NFT-05-User2 | ERC721 | Owns Token ID #2 |
-| ERC1155-01-User2 | ERC1155 | 100 units (Token ID:1) |
-| ERC1155-02-User2 | ERC1155 | 100 units (Token ID:1) |
-| ERC1155-03-User2 | ERC1155 | 100 units (Token ID:1) |
-| ERC1155-04-User2 | ERC1155 | 100 units (Token ID:1) |
-| ERC1155-05-User2 | ERC1155 | 100 units (Token ID:1) |
-
-### After Trade (Own Assets)
-
-| Contract Name | Asset Type | Balance | Change |
-|---|---|---|---|
-| ERC20-01-User2 | ERC20 | 18.0 tokens | -2.0 (sent) |
-| ERC20-02-User2 | ERC20 | 18.0 tokens | -2.0 (sent) |
-| ERC20-03-User2 | ERC20 | 18.0 tokens | -2.0 (sent) |
-| ERC20-04-User2 | ERC20 | 18.0 tokens | -2.0 (sent) |
-| ERC20-05-User2 | ERC20 | 18.0 tokens | -2.0 (sent) |
-| NFT-01-User2 | ERC721 | None | Sent Token ID #2 |
-| NFT-02-User2 | ERC721 | None | Sent Token ID #2 |
-| NFT-03-User2 | ERC721 | None | Sent Token ID #2 |
-| NFT-04-User2 | ERC721 | None | Sent Token ID #2 |
-| NFT-05-User2 | ERC721 | None | Sent Token ID #2 |
-| ERC1155-01-User2 | ERC1155 | 96 units (Token ID:1) | -4 (sent) |
-| ERC1155-02-User2 | ERC1155 | 96 units (Token ID:1) | -4 (sent) |
-| ERC1155-03-User2 | ERC1155 | 96 units (Token ID:1) | -4 (sent) |
-| ERC1155-04-User2 | ERC1155 | 96 units (Token ID:1) | -4 (sent) |
-| ERC1155-05-User2 | ERC1155 | 96 units (Token ID:1) | -4 (sent) |
-
-### After Trade (Received Assets from User1)
-
-| Contract Name | Asset Type | Balance | Source |
-|---|---|---|---|
-| ERC20-01-User1 | ERC20 | 1.0 tokens | Received from User1 |
-| ERC20-02-User1 | ERC20 | 1.0 tokens | Received from User1 |
-| ERC20-03-User1 | ERC20 | 1.0 tokens | Received from User1 |
-| ERC20-04-User1 | ERC20 | 1.0 tokens | Received from User1 |
-| ERC20-05-User1 | ERC20 | 1.0 tokens | Received from User1 |
-| NFT-01-User1 | ERC721 | Owns Token ID #1 | Received from User1 |
-| NFT-02-User1 | ERC721 | Owns Token ID #1 | Received from User1 |
-| NFT-03-User1 | ERC721 | Owns Token ID #1 | Received from User1 |
-| NFT-04-User1 | ERC721 | Owns Token ID #1 | Received from User1 |
-| NFT-05-User1 | ERC721 | Owns Token ID #1 | Received from User1 |
-| ERC1155-01-User1 | ERC1155 | 3 units (Token ID:1) | Received from User1 |
-| ERC1155-02-User1 | ERC1155 | 3 units (Token ID:1) | Received from User1 |
-| ERC1155-03-User1 | ERC1155 | 3 units (Token ID:1) | Received from User1 |
-| ERC1155-04-User1 | ERC1155 | 3 units (Token ID:1) | Received from User1 |
-| ERC1155-05-User1 | ERC1155 | 3 units (Token ID:1) | Received from User1 |
-
----
+**Summary:** 15 asset pairs traded across 30 contracts. Each row shows one asset type from both users' perspectives with complete before/after balances and trade results.
