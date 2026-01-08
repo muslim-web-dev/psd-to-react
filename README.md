@@ -1,68 +1,180 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## 1. Assets Offered by User1
 
-In the project directory, you can run:
+User1 offered **15 assets** from **15 different contracts**:
 
-### `yarn start`
+| # | Asset Type | Contract Name | Amount/Token ID | Contract Address |
+|---|---|---|---|---|
+| 1 | ERC20 | ERC20-01-User1 | 1.0 tokens | 0x9A9f2CCfdE556A7E9Ff0848998Aa4a0CFD8863AE |
+| 2 | ERC20 | ERC20-02-User1 | 1.0 tokens | 0x67d269191c92Caf3cD7723F116c85e6E9bf55933 |
+| 3 | ERC20 | ERC20-03-User1 | 1.0 tokens | 0x4826533B4897376654Bb4d4AD88B7faFD0C98528 |
+| 4 | ERC20 | ERC20-04-User1 | 1.0 tokens | 0xCD8a1C3ba11CF5ECfa6267617243239504a98d90 |
+| 5 | ERC20 | ERC20-05-User1 | 1.0 tokens | 0x5081a39b8A5f0E35a8D959395a630b68B74Dd30f |
+| 6 | ERC721 (NFT) | NFT-01-User1 | Token ID #1 | 0x59b670e9fA9D0A427751Af201D676719a970857b |
+| 7 | ERC721 (NFT) | NFT-02-User1 | Token ID #1 | 0x9E545E3C0baAB3E08CdfD552C960A1050f373042 |
+| 8 | ERC721 (NFT) | NFT-03-User1 | Token ID #1 | 0x9d4454B023096f34B160D6B654540c56A1F81688 |
+| 9 | ERC721 (NFT) | NFT-04-User1 | Token ID #1 | 0x7bc06c482DEAd17c0e297aFbC32f6e63d3846650 |
+| 10 | ERC721 (NFT) | NFT-05-User1 | Token ID #1 | 0x4C4a2f8c81640e47606d3fd77B353E87Ba015584 |
+| 11 | ERC1155 | ERC1155-01-User1 | 3 units (ID:1) | 0x4A679253410272dd5232B3Ff7cF5dbB88f295319 |
+| 12 | ERC1155 | ERC1155-02-User1 | 3 units (ID:1) | 0xf5059a5D33d5853360D16C683c16e67980206f36 |
+| 13 | ERC1155 | ERC1155-03-User1 | 3 units (ID:1) | 0x4c5859f0F772848b2D91F1D83E2Fe57935348029 |
+| 14 | ERC1155 | ERC1155-04-User1 | 3 units (ID:1) | 0x1429859428C0aBc9C2C47C8Ee9FBaf82cFA0F20f |
+| 15 | ERC1155 | ERC1155-05-User1 | 3 units (ID:1) | 0xDC11f7E700A4c898AE5CAddB1082cFfa76512aDD |
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Summary:** 5 ERC20 tokens + 5 NFTs + 5 ERC1155 items = **15 assets from 15 contracts**
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+## 2. Assets Offered by User2
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+User2 offered **15 assets** from **15 different contracts**:
 
-### `yarn build`
+| # | Asset Type | Contract Name | Amount/Token ID | Contract Address |
+|---|---|---|---|---|
+| 1 | ERC20 | ERC20-01-User2 | 2.0 tokens | 0x3Aa5ebB10DC797CAC828524e59A333d0A371443c |
+| 2 | ERC20 | ERC20-02-User2 | 2.0 tokens | 0xc3e53F4d16Ae77Db1c982e75a937B9f60FE63690 |
+| 3 | ERC20 | ERC20-03-User2 | 2.0 tokens | 0x0E801D84Fa97b50751Dbf25036d067dCf18858bF |
+| 4 | ERC20 | ERC20-04-User2 | 2.0 tokens | 0x2bdCC0de6bE1f7D2ee689a0342D76F52E8EFABa3 |
+| 5 | ERC20 | ERC20-05-User2 | 2.0 tokens | 0xdbC43Ba45381e02825b14322cDdd15eC4B3164E6 |
+| 6 | ERC721 (NFT) | NFT-01-User2 | Token ID #2 | 0x322813Fd9A801c5507c9de605d63CEA4f2CE6c44 |
+| 7 | ERC721 (NFT) | NFT-02-User2 | Token ID #2 | 0x1613beB3B2C4f22Ee086B2b38C1476A3cE7f78E8 |
+| 8 | ERC721 (NFT) | NFT-03-User2 | Token ID #2 | 0x36C02dA8a0983159322a80FFE9F24b1acfF8B570 |
+| 9 | ERC721 (NFT) | NFT-04-User2 | Token ID #2 | 0xFD471836031dc5108809D173A067e8486B9047A3 |
+| 10 | ERC721 (NFT) | NFT-05-User2 | Token ID #2 | 0x2E2Ed0Cfd3AD2f1d34481277b3204d807Ca2F8c2 |
+| 11 | ERC1155 | ERC1155-01-User2 | 4 units (ID:1) | 0x09635F643e140090A9A8Dcd712eD6285858ceBef |
+| 12 | ERC1155 | ERC1155-02-User2 | 4 units (ID:1) | 0x998abeb3E57409262aE5b751f60747921B33613E |
+| 13 | ERC1155 | ERC1155-03-User2 | 4 units (ID:1) | 0x5f3f1dBD7B74C6B46e8c44f98792A1dAf8d69154 |
+| 14 | ERC1155 | ERC1155-04-User2 | 4 units (ID:1) | 0x162A433068F51e18b7d13932F27e66a3f99E6890 |
+| 15 | ERC1155 | ERC1155-05-User2 | 4 units (ID:1) | 0x36b58F5C1969B7b6591D752ea6F5486D069010AB |
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Summary:** 5 ERC20 tokens + 5 NFTs + 5 ERC1155 items = **15 assets from 15 contracts**
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 3. User1 Balance Sheet
 
-### `yarn eject`
+### Before Trade
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+| Contract Name | Asset Type | Balance |
+|---|---|---|
+| ERC20-01-User1 | ERC20 | 10.0 tokens |
+| ERC20-02-User1 | ERC20 | 10.0 tokens |
+| ERC20-03-User1 | ERC20 | 10.0 tokens |
+| ERC20-04-User1 | ERC20 | 10.0 tokens |
+| ERC20-05-User1 | ERC20 | 10.0 tokens |
+| NFT-01-User1 | ERC721 | Owns Token ID #1 |
+| NFT-02-User1 | ERC721 | Owns Token ID #1 |
+| NFT-03-User1 | ERC721 | Owns Token ID #1 |
+| NFT-04-User1 | ERC721 | Owns Token ID #1 |
+| NFT-05-User1 | ERC721 | Owns Token ID #1 |
+| ERC1155-01-User1 | ERC1155 | 100 units (Token ID:1) |
+| ERC1155-02-User1 | ERC1155 | 100 units (Token ID:1) |
+| ERC1155-03-User1 | ERC1155 | 100 units (Token ID:1) |
+| ERC1155-04-User1 | ERC1155 | 100 units (Token ID:1) |
+| ERC1155-05-User1 | ERC1155 | 100 units (Token ID:1) |
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### After Trade (Own Assets)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+| Contract Name | Asset Type | Balance | Change |
+|---|---|---|---|
+| ERC20-01-User1 | ERC20 | 9.0 tokens | -1.0 (sent) |
+| ERC20-02-User1 | ERC20 | 9.0 tokens | -1.0 (sent) |
+| ERC20-03-User1 | ERC20 | 9.0 tokens | -1.0 (sent) |
+| ERC20-04-User1 | ERC20 | 9.0 tokens | -1.0 (sent) |
+| ERC20-05-User1 | ERC20 | 9.0 tokens | -1.0 (sent) |
+| NFT-01-User1 | ERC721 | None | Sent Token ID #1 |
+| NFT-02-User1 | ERC721 | None | Sent Token ID #1 |
+| NFT-03-User1 | ERC721 | None | Sent Token ID #1 |
+| NFT-04-User1 | ERC721 | None | Sent Token ID #1 |
+| NFT-05-User1 | ERC721 | None | Sent Token ID #1 |
+| ERC1155-01-User1 | ERC1155 | 97 units (Token ID:1) | -3 (sent) |
+| ERC1155-02-User1 | ERC1155 | 97 units (Token ID:1) | -3 (sent) |
+| ERC1155-03-User1 | ERC1155 | 97 units (Token ID:1) | -3 (sent) |
+| ERC1155-04-User1 | ERC1155 | 97 units (Token ID:1) | -3 (sent) |
+| ERC1155-05-User1 | ERC1155 | 97 units (Token ID:1) | -3 (sent) |
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### After Trade (Received Assets from User2)
 
-## Learn More
+| Contract Name | Asset Type | Balance | Source |
+|---|---|---|---|
+| ERC20-01-User2 | ERC20 | 2.0 tokens | Received from User2 |
+| ERC20-02-User2 | ERC20 | 2.0 tokens | Received from User2 |
+| ERC20-03-User2 | ERC20 | 2.0 tokens | Received from User2 |
+| ERC20-04-User2 | ERC20 | 2.0 tokens | Received from User2 |
+| ERC20-05-User2 | ERC20 | 2.0 tokens | Received from User2 |
+| NFT-01-User2 | ERC721 | Owns Token ID #2 | Received from User2 |
+| NFT-02-User2 | ERC721 | Owns Token ID #2 | Received from User2 |
+| NFT-03-User2 | ERC721 | Owns Token ID #2 | Received from User2 |
+| NFT-04-User2 | ERC721 | Owns Token ID #2 | Received from User2 |
+| NFT-05-User2 | ERC721 | Owns Token ID #2 | Received from User2 |
+| ERC1155-01-User2 | ERC1155 | 4 units (Token ID:1) | Received from User2 |
+| ERC1155-02-User2 | ERC1155 | 4 units (Token ID:1) | Received from User2 |
+| ERC1155-03-User2 | ERC1155 | 4 units (Token ID:1) | Received from User2 |
+| ERC1155-04-User2 | ERC1155 | 4 units (Token ID:1) | Received from User2 |
+| ERC1155-05-User2 | ERC1155 | 4 units (Token ID:1) | Received from User2 |
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 4. User2 Balance Sheet
 
-### Code Splitting
+### Before Trade
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+| Contract Name | Asset Type | Balance |
+|---|---|---|
+| ERC20-01-User2 | ERC20 | 20.0 tokens |
+| ERC20-02-User2 | ERC20 | 20.0 tokens |
+| ERC20-03-User2 | ERC20 | 20.0 tokens |
+| ERC20-04-User2 | ERC20 | 20.0 tokens |
+| ERC20-05-User2 | ERC20 | 20.0 tokens |
+| NFT-01-User2 | ERC721 | Owns Token ID #2 |
+| NFT-02-User2 | ERC721 | Owns Token ID #2 |
+| NFT-03-User2 | ERC721 | Owns Token ID #2 |
+| NFT-04-User2 | ERC721 | Owns Token ID #2 |
+| NFT-05-User2 | ERC721 | Owns Token ID #2 |
+| ERC1155-01-User2 | ERC1155 | 100 units (Token ID:1) |
+| ERC1155-02-User2 | ERC1155 | 100 units (Token ID:1) |
+| ERC1155-03-User2 | ERC1155 | 100 units (Token ID:1) |
+| ERC1155-04-User2 | ERC1155 | 100 units (Token ID:1) |
+| ERC1155-05-User2 | ERC1155 | 100 units (Token ID:1) |
 
-### Analyzing the Bundle Size
+### After Trade (Own Assets)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+| Contract Name | Asset Type | Balance | Change |
+|---|---|---|---|
+| ERC20-01-User2 | ERC20 | 18.0 tokens | -2.0 (sent) |
+| ERC20-02-User2 | ERC20 | 18.0 tokens | -2.0 (sent) |
+| ERC20-03-User2 | ERC20 | 18.0 tokens | -2.0 (sent) |
+| ERC20-04-User2 | ERC20 | 18.0 tokens | -2.0 (sent) |
+| ERC20-05-User2 | ERC20 | 18.0 tokens | -2.0 (sent) |
+| NFT-01-User2 | ERC721 | None | Sent Token ID #2 |
+| NFT-02-User2 | ERC721 | None | Sent Token ID #2 |
+| NFT-03-User2 | ERC721 | None | Sent Token ID #2 |
+| NFT-04-User2 | ERC721 | None | Sent Token ID #2 |
+| NFT-05-User2 | ERC721 | None | Sent Token ID #2 |
+| ERC1155-01-User2 | ERC1155 | 96 units (Token ID:1) | -4 (sent) |
+| ERC1155-02-User2 | ERC1155 | 96 units (Token ID:1) | -4 (sent) |
+| ERC1155-03-User2 | ERC1155 | 96 units (Token ID:1) | -4 (sent) |
+| ERC1155-04-User2 | ERC1155 | 96 units (Token ID:1) | -4 (sent) |
+| ERC1155-05-User2 | ERC1155 | 96 units (Token ID:1) | -4 (sent) |
 
-### Making a Progressive Web App
+### After Trade (Received Assets from User1)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+| Contract Name | Asset Type | Balance | Source |
+|---|---|---|---|
+| ERC20-01-User1 | ERC20 | 1.0 tokens | Received from User1 |
+| ERC20-02-User1 | ERC20 | 1.0 tokens | Received from User1 |
+| ERC20-03-User1 | ERC20 | 1.0 tokens | Received from User1 |
+| ERC20-04-User1 | ERC20 | 1.0 tokens | Received from User1 |
+| ERC20-05-User1 | ERC20 | 1.0 tokens | Received from User1 |
+| NFT-01-User1 | ERC721 | Owns Token ID #1 | Received from User1 |
+| NFT-02-User1 | ERC721 | Owns Token ID #1 | Received from User1 |
+| NFT-03-User1 | ERC721 | Owns Token ID #1 | Received from User1 |
+| NFT-04-User1 | ERC721 | Owns Token ID #1 | Received from User1 |
+| NFT-05-User1 | ERC721 | Owns Token ID #1 | Received from User1 |
+| ERC1155-01-User1 | ERC1155 | 3 units (Token ID:1) | Received from User1 |
+| ERC1155-02-User1 | ERC1155 | 3 units (Token ID:1) | Received from User1 |
+| ERC1155-03-User1 | ERC1155 | 3 units (Token ID:1) | Received from User1 |
+| ERC1155-04-User1 | ERC1155 | 3 units (Token ID:1) | Received from User1 |
+| ERC1155-05-User1 | ERC1155 | 3 units (Token ID:1) | Received from User1 |
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+---
